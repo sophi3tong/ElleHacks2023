@@ -1,0 +1,68 @@
+                +---------------+
+                |   Login page  |
+                +---------------+
+                        |
+                        |
+                        |
+                +---------------+
+                |   Profile     |
+                +---------------+
+                        |
+                        |
+                        |
+              +--------------------------+
+              |   Did You Know/Info page   |
+              +--------------------------+
+                        |
+                        |
+                        |
+            +--------------------------+
+            |   Tracker Display Page   |
+            +--------------------------+
+                        |
+                        |
+                        |
+            +--------------------------+
+            |   Log Activity Function   |
+            +--------------------------+
+                        |
+                        |
+                        |
+            +----------------------------------+
+            |   Home page with Activities Menu  |
+            +----------------------------------+
+                        |
+                        |
+                        |
+           +-------------------------+        +-------------------------+
+           | public void home()      |        | public void activities() |
+           +-------------------------+        +-------------------------+
+           |     JFrame.EXIT_ON_CLOSE|        |  JPanel actPanel        |
+           |     JFrame.setSize      |        |  GridBagConstraints c   |
+           |     JFrame.setVisible   |        |  JButton[] activities   |
+           |        activities()     |        |     desc JLabel         |
+           |                         |        |     for loop            |
+           +-------------------------+        +-------------------------+
+                        |                          |
+                        |                          |
+                        |                          |
+               +---------------+         +-----------------+
+               |logActivity()  |         |  total()        |
+               +---------------+         +-----------------+
+               |   double mins |         |  JPanel totalDisplay|
+               |   String strMins|       |  JLabel display    |
+               |               |         |                   |
+               |   Projections.calculateBath|               |
+               |        total()|         |  this.getContentPane()|
+               |               |         |  this.screenRefresh() |
+               +---------------+         +-----------------+
+                        |                          |
+                        |                          |
+                        |                          |
+                        |                          |
+                        |                 +-------------------------+
+                        +---------------->| public void actionPerformed()|
+                                          +-------------------------+
+                                          |   for loop              |
+                                          |   logActivity()         |
+                                          +-------------------------+
